@@ -1,0 +1,324 @@
+/* pizza circle style */
+.apex-charts{
+	position: relative;
+}
+.circle_fonts img{
+	width: 500px;
+}
+.circle_base{
+	position: absolute;
+	top: 45px;
+	left: 85px;
+}
+
+.circle_base img{
+	width: 280px;
+}
+.circle_slice img{
+width:55px;
+}
+#slice0{
+	position: absolute;
+    top: 63px;
+    left: 103px;
+}
+#slice0 img{
+	width: 230px;
+    /* opacity: 40%; */
+}
+#slice1{
+	position: absolute;
+    top: 65px;
+    left: 216px;
+    transform: rotate(358deg);
+}
+#slice1 img{
+	width: 62px;
+	}
+
+#slice2{
+	transform: rotate(358deg);
+    position: absolute;
+    top: 77px;
+    left: 224px;
+}
+#slice2 img{
+	width: 94px;
+}
+#slice3{
+	transform: rotate(360deg);
+    position: absolute;
+    top: 139px;
+    left: 224px;
+}
+#slice3 img{
+	width: 94px;
+}
+#slice4{
+	transform: rotate(2deg);
+    position: absolute;
+    top: 171px;
+    left: 215px;
+}
+#slice4 img{
+	width: 94px;
+}
+#slice5{
+	transform: rotate(357deg);
+    position: absolute;
+    top: 178px;
+    left: 215px;
+}
+#slice5 img{
+	width: 55px;
+}
+#slice6{
+	transform: rotate(357deg);
+    position: absolute;
+    top: 188px;
+    left: 149px;
+}
+#slice6 img{
+	width: 54px;
+}
+#slice7{
+	transform: rotate(359deg);
+    position: absolute;
+    top: 172px;
+    left: 113px;
+}
+#slice7 img{
+	width: 94px;
+}
+#slice8{
+	transform: rotate(358deg);
+    position: absolute;
+    top: 142px;
+    left: 105px;
+}
+#slice8 img{
+	width: 94px;
+}
+#slice9{
+	transform: rotate(358deg);
+    position: absolute;
+    top: 93px;
+    left: 114px;
+}
+#slice9 img{
+	width: 94px;
+}
+#slice10{
+	transform: rotate(358deg);
+    position: absolute;
+    top: 68px;
+    left: 150px;
+}
+#slice10 img{
+	width: 55px;
+}
+
+.card-min-h{ 
+	min-height: 1102px;
+}
+@media screen and (max-width:480px) {
+
+	body{
+		background: white;
+	}
+
+	.circle_outer{
+		margin: 180px 0;
+	}
+	.apex-charts{
+		background: url(../images/pizza/circle_font.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		background-position: 11px 11px;
+		background-size: 74%;
+		top: -141px;
+		left: -27px;
+	}
+	.circle_fonts img{
+		opacity: 0;
+	}
+	.circle_base{
+		position: absolute;
+    	top: 29px;
+    	left: 70px;
+	}
+	
+	.circle_base img{
+		width: 230px;
+	}
+	.circle_slice img{
+	width:55px;
+	}
+	#slice0{
+		position: absolute;
+		top: 39px;
+		left: 82px;
+	}
+	#slice0 img{
+		width: 200px;
+		/* opacity: 40%; */
+	}
+	#slice1{
+		position: absolute;
+		top: 41px;
+		left: 179px;
+		transform: rotate(361deg);
+	}
+	#slice1 img{
+		width: 51px;
+		}
+	
+	#slice2{
+		transform: rotate(358deg);
+    position: absolute;
+    top: 58px;
+    left: 190px;
+	}
+	#slice2 img{
+		width: 80px;
+	}
+	#slice3{
+		transform: rotate(360deg);
+    position: absolute;
+    top: 102px;
+    left: 186px;
+	}
+	#slice3 img{
+		width: 94px;
+	}
+	#slice4{
+		transform: rotate(2deg);
+		position: absolute;
+		top: 137px;
+		left: 184px;
+	}
+	#slice4 img{
+		width: 80px;
+	}
+	#slice5{
+	transform: rotate(-1deg);
+    position: absolute;
+    top: 141px;
+    left: 182px;
+	}
+	#slice5 img{
+		width: 47px;
+	}
+	#slice6{
+		transform: rotate(357deg);
+		position: absolute;
+		top: 145px;
+		left: 122px;
+	}
+	#slice6 img{
+		width: 48px;
+	}
+	#slice7{
+	transform: rotate(359deg);
+	position: absolute;
+	top: 134px;
+	left: 88px;
+	}
+	#slice7 img{
+		width: 85px;
+	}
+	#slice8{
+	transform: rotate(358deg);
+    position: absolute;
+    top: 107px;
+    left: 86px;
+	}
+	#slice8 img{
+		width: 85px;
+	}
+	#slice9{
+		transform: rotate(358deg);
+    position: absolute;
+    top: 68px;
+    left: 96px;
+	}
+	#slice9 img{
+		width: 75px;
+	}
+	#slice10{
+		transform: rotate(358deg);
+		position: absolute;
+		top: 46px;
+		left: 129px;
+	}
+	#slice10 img{
+		width: 46px;
+  }
+}
+
+
+
+/* ------------  Added by Awais------- */
+
+#chart {
+			width: 50%;
+			margin: 0 auto;
+		}
+		
+.area {
+			display: inline-block;
+			font-size: 1.3em;
+			padding: 5px 10px;
+			border: 1px solid #ddd;
+			cursor: pointer;
+		}
+		.optn-sty{
+			color: rgb(255, 255, 255) !important;
+			background-color: rgb(44, 49, 54) !important;
+			border-color: rgb(42, 46, 51) !important;
+		}
+		.area:hover {
+			background-color: #cccecf;
+		}
+		.body-cover{
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+
+.success-msg{
+			color: #34c38f;
+			background-color: transparent;
+		}
+
+		.pulse {
+			float: right;
+			width: 68px;
+			height: 30px;
+			background-color: #34c38f;
+			color: white;
+			border-radius: 10%;
+			position: relative;
+			padding-top: 7px;
+			text-align: center;
+			animation: animate 3s linear infinite;
+		}
+
+		@keyframes animate {
+			0% {
+				box-shadow: 0 0 0 0 rgb(255, 109, 74, 0.7), 0 0 0 0 rgb(255, 109, 74, 0.7)
+			}
+
+			40% {
+				box-shadow: 0 0 0 50px rgb(255, 109, 74, 0), 0 0 0 0 rgb(255, 109, 74, 0.7)
+			}
+
+			80% {
+				box-shadow: 0 0 0 50px rgb(255, 109, 74, 0), 0 0 0 30px rgb(255, 109, 74, 0)
+			}
+
+			100% {
+				box-shadow: 0 0 0 0 rgb(255, 109, 74, 0), 0 0 0 30px rgb(255, 109, 74, 0)
+			}
+		}
